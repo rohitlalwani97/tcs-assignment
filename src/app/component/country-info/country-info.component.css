@@ -1,0 +1,23 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-style: italic;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.heading{
+  margin-top: 50px; 
+  text-align: center;
+  font-style: italic;
+}
+

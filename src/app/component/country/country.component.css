@@ -1,0 +1,18 @@
+.label{
+    font-family: arial, sans-serif;
+    padding-left: 30vh;
+    padding-top: 40px;
+    font-style: oblique;
+}
+
+.msg{
+    font-style: italic;
+    font-size: smaller;
+    color: red;
+}
+
+.heading{
+  margin-top: 50px; 
+  text-align: center;
+  font-style: italic
+}

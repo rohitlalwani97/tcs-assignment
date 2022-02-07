@@ -1,0 +1,21 @@
+<h2 class="heading">Information about {{countryInfo.name.common}}</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Capital</th>
+    <th>Population</th>
+    <th>Currencies</th>
+    <th>Flag</th>
+  </tr>
+  <tr>
+    <td>{{countryInfo.name.common}}</td>
+    <td>{{countryInfo.capital[0]}}</td>
+    <td>-</td>
+    <td>
+      <span *ngFor="let item of countryInfo.currencies | keyvalue">{{item.value.name}}
+      </span>
+    </td>
+    <td>{{countryInfo.flag}}</td>
+  </tr>
+</table>
